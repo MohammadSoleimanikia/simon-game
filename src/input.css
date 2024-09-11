@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    @apply text-center bg-[#011F3F];
+}
+#level-title{
+    @apply text-4xl m-12 text-[#FEF2BF];
+}
+.container{
+    @apply block w-2/4 m-auto;
+}
+
+.btn{
+    @apply m-6 inline-block size-52 border-[10px] border-black rounded-[20%];
+}
+.game-over{
+    @apply bg-red-600 opacity-80
+}
+.red{
+    @apply bg-red-600;
+}
+.blue{
+    @apply bg-blue-600;
+}
+.green{
+    @apply bg-green-600;
+}
+.yellow{
+    @apply bg-yellow-600;
+}
+.pressed{
+    @apply shadow-4x bg-gray-500
+}
