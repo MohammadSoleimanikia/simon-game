@@ -8,11 +8,11 @@ body{
     @apply text-4xl m-12 text-[#FEF2BF];
 }
 .container{
-    @apply block w-2/4 m-auto;
+    @apply block w-full md:w-2/4 m-auto;
 }
 
 .btn{
-    @apply m-6 inline-block size-52 border-[10px] border-black rounded-[20%];
+    @apply m-6 inline-block size-24 md:size-32 lg:size-52   border-[10px] border-black rounded-[20%];
 }
 .game-over{
     @apply bg-red-600 opacity-80

@@ -605,18 +605,38 @@ body {
 .container {
   margin: auto;
   display: block;
-  width: 50%;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 50%;
+  }
 }
 
 .btn {
   margin: 1.5rem;
   display: inline-block;
-  width: 13rem;
-  height: 13rem;
+  width: 6rem;
+  height: 6rem;
   border-radius: 20%;
   border-width: 10px;
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+@media (min-width: 768px) {
+  .btn {
+    width: 8rem;
+    height: 8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .btn {
+    width: 13rem;
+    height: 13rem;
+  }
 }
 
 .game-over {
