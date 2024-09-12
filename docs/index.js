@@ -14,11 +14,13 @@ $(".btn").on("click", (event) => {
   checkAnswer(userClickedPattern.length - 1);
 });
 // start game with one keypress
-$(document).on("keypress", () => {
+$("#start-button").on("click", () => {
   if (!gameStarted) {
     $("#level-title").text("Level " + level);
     nextSequence();
     gameStarted = true;
+    $("#start-button").addClass('hidden');
+    $("h1").removeClass('hidden');
   }
 });
 //play corresponding sound with name----------------------------------------------------
@@ -85,5 +87,6 @@ function startOver() {
     $("body").removeClass("game-over");
   }, 200);
 
-  $("h1").text("Game Over, Press Any Key to Restart");
+  $("h1").addClass('hidden');
+  $("#start-button").removeClass('hidden');
 }

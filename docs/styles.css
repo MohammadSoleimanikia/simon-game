@@ -588,10 +588,22 @@ video {
   }
 }
 
+.hidden {
+  display: none;
+}
+
 body {
   --tw-bg-opacity: 1;
   background-color: rgb(1 31 63 / var(--tw-bg-opacity));
   text-align: center;
+}
+
+#start-button {
+  margin: 3rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(254 242 191 / var(--tw-text-opacity));
 }
 
 #level-title {

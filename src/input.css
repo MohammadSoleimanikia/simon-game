@@ -4,6 +4,9 @@
 body{
     @apply text-center bg-[#011F3F];
 }
+#start-button{
+    @apply text-4xl m-12 text-[#FEF2BF];
+}
 #level-title{
     @apply text-4xl m-12 text-[#FEF2BF];
 }
