@@ -5,10 +5,10 @@ body{
     @apply text-center bg-[#011F3F];
 }
 #start-button{
-    @apply text-4xl m-12 text-[#FEF2BF];
+    @apply text-4xl m-12 text-[#FEF2BF] border-4 rounded-3xl p-3 hover:text-[#011F3F] hover:bg-[#FEF2BF];
 }
 #level-title{
-    @apply text-4xl m-12 text-[#FEF2BF];
+    @apply text-4xl m-12 text-[#FEF2BF] ;
 }
 .container{
     @apply block w-full md:w-2/4 m-auto;
